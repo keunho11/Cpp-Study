@@ -60,7 +60,7 @@ char* my_strcat(char* pd, const char* ps)
 		pd++;
 		ps++;
 	}
-	*pd = '\0';// 빼도 초기화 할대 0으로 되어 있어서 문제는 되지 않는다.
+	*pd = '\0';// 빼도 초기화 할때 0으로 되어 있어서 문제는 되지 않는다.
 
 	return po;
 	//return temp;
